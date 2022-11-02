@@ -1,4 +1,4 @@
-package com.game.pack;
+/* package com.game.pack;
 
 import java.util.Scanner;
 
@@ -21,3 +21,4 @@ public class ConsoleQuiz extends Quiz {
     }
 
 }
+ */

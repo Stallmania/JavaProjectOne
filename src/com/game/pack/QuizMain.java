@@ -8,6 +8,7 @@ public class QuizMain {
         quiz.start;
         quiz.displayResults(); */
 
-        new ConsoleQuiz(6);
+        Quiz quiz = new Quiz();
+        quiz.start();
     }
 }

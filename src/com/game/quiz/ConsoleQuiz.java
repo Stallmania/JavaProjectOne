@@ -1,4 +1,4 @@
-/* package com.game.pack;
+package com.game.quiz;
 
 import java.util.Scanner;
 
@@ -6,8 +6,9 @@ public class ConsoleQuiz extends Quiz {
 
     Scanner clavier = new Scanner(System.in);
 
-    public ConsoleQuiz(int numberOfQuestions) {
-        super(numberOfQuestions);
+    public ConsoleQuiz(int numberOfQuestion) {
+        super(numberOfQuestion);
+
     }
 
     @Override
@@ -16,9 +17,8 @@ public class ConsoleQuiz extends Quiz {
     }
 
     @Override
-    public int retreiveAnser() {
-        return clavier.nextInt() ;
+    public String retreiveAnser(String question) {
+        displayMessage(question);
+        return clavier.nextLine();
     }
-
 }
- */

@@ -1,4 +1,4 @@
-package com.game.pack;
+package com.game.quiz;
 
 public class Question {
 
